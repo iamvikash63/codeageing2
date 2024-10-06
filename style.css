@@ -1,0 +1,263 @@
+*{
+    margin: 0%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.nav{
+    background-color: rgb(252, 252, 252);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo{
+    background-image: url(logo/logo-codeageing-2.png);
+    height: 50px;
+    width: 150px;
+    background-size: cover;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.nav-input{
+padding-top: 12px;
+
+
+}
+.nav-search{
+    font-size: large;
+    height: 30px;
+    width: 500px;
+   
+    background-color: rgb(247, 247, 247);
+    border-radius: 5px;
+ color: red;
+  /* border: none; */
+}
+
+.contact{
+    padding-top: 12px;
+}
+.con-btn{
+    height: 30px;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 15px;
+  border: none;
+  background-color: rgb(255, 74, 74);
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+  
+}
+
+.con-btn:hover{
+  background-color: blue;
+  color: aliceblue;
+}
+
+.s-icon{
+  font-size: larger;
+  padding: 5px;
+  color: rgb(255, 74, 74);
+border-radius: 4px;
+cursor: pointer;
+}
+
+.s-icon:hover{
+  background-color: rgb(255, 255, 255);
+  
+}
+
+
+/* navbar 2 */
+
+.nav2{
+  display: flex;
+  background-color: #ffffff;
+border-radius: 5px;
+
+
+
+  
+}
+.menu{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  margin-left: 10px;
+  
+
+}
+
+.menu:hover{
+  color: rgb(4, 0, 255);
+}
+
+.ltc{
+
+  background-color: rgb(255, 74, 74);
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding-top: 5px;
+  margin-left: 70px;
+font-weight: bolder;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+
+.ltc:hover{
+  background-color: rgb(241, 241, 241);
+}
+
+.learn-to-code{
+
+  
+  font-size: x-large;
+}
+
+.space{
+ width: 400px;
+}
+.space2{
+  width: 70px;
+
+}
+
+.user-login{
+    background-color: rgb(255, 74, 74);
+    border-radius: 2px;
+    font-size: large;
+   
+}
+
+.user-login:hover{
+  background-color: rgb(252, 252, 252);
+}
+
+.hero-im{
+  background-size: cover;
+  height: 370px;
+  animation: mymove 5s infinite;
+
+
+}
+
+@keyframes mymove {
+  50% {background-position: center;}
+}
+
+
+.box3{
+ 
+  margin-top: -9px;
+  width: 100%;
+  background-color: #ffffff;
+  font-size: larger;
+  text-align: center;
+
+
+}
+.box3btn{
+  font-size: larger;
+  padding: 5px 10px;
+  border-radius: 5px;
+background-color: rgb(65, 65, 255);
+border: none;
+
+  
+}
+
+.box3btn a{
+  color: white;
+ 
+}
+
+.box3btn:hover{
+  background: transparent;
+ 
+}
+
+.box3btn a:hover{
+  color: black;
+  
+ 
+}
+
+
+.box3, h1,h3{
+  padding: 10px;
+
+}
+.box3a{
+  text-decoration: none;
+  font-weight: 700;
+color: black;
+}
+
+.box3:hover{
+  color: red;
+}
+
+.box4{
+  display: flex;
+  margin-top: 20px;
+justify-content: space-evenly;
+height: 300px;
+
+
+}
+.box4-img{
+  background-image: url(meeting-6004997_1280.png);
+ 
+  height: 300px;
+  width: 400px;
+background-size: cover;
+
+}
+
+.box4-img:hover{
+  box-shadow: 2px 1px 20px rgb(27, 8, 8);
+}
+
+.box4l{
+  font-weight: bold;
+  font-size: larger;
+padding: 40px;
+
+}
+
+.box4btn {
+  padding: 5px;
+  font-size: large;
+  background-color:rgb(33, 58, 200) ;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-left: 60px;
+  color: white;
+}
+
+.box4btn a{
+ text-decoration: none;
+ color: aliceblue;
+ padding: 10px;
+}
+
+.box4btn:hover{
+  box-shadow: 2px 1px 20px rgb(27, 8, 8);
+}
+
+.box4btn a:hover{
+  color: white;
+
+ 
+}
+
+.box5img2{
+  background-image: url(web-development-7265717_640.png);
+}
+
